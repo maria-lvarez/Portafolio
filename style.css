@@ -1,0 +1,248 @@
+
+#img-perfil{
+    height: 150px;
+    width: 150px;
+}
+
+#bloque-perfil{
+    background: rgb(85,60,181);
+    background: radial-gradient(circle, rgba(85,60,181,1) 0%, rgba(151,176,204,1) 100%);
+}
+
+#cont-perfil{ 
+    background-image: url(imagenes/wave_background.png);
+    /* Keep the inherited background full size. */
+    background-size:cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+.container-perfil{
+    width: 900px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+}
+
+#about-me{
+    background-color: #4a0db4;
+
+}  
+#contenedorhab{
+
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#cont-habilidad{
+  padding:5px ;
+  margin: 7px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border-radius: 10px;
+  
+}
+
+h1{
+    color: white;
+}
+
+.pils{
+    align-items: start;
+}
+
+.badge{
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 8px;
+    text-align:justify;
+    align-items: start;
+}
+
+#proycetos-ti{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;  
+}
+
+#pag-web-ti{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;  
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.titulo-proyecto{
+    text-shadow: 3px 5px 30px #000000;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+}
+
+#proyecto1{
+    background-image: url(imagenes/bicicleta\ render\ 5.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#proyecto2{
+    background-image: url(imagenes/kaleidos3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+#proyecto3{
+    background-image: url(imagenes/costado2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.descripcion-carousel{
+    font-size: small;
+}
+
+#carousel-producto .carousel-caption{
+background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+}
+
+#carousel-moviliario .carousel-caption{
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+}
+
+#carousel-medios-digitales .carousel-caption{
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #6610f2;
+    height: 5px;
+}
+
+.carousel-caption{
+    color:black;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #6610f2!important;
+    height: 5px;
+}
+
+.carousel-svg{
+    display: flex;
+    justify-content:center;
+    align-items:baseline;
+    gap: 5px;
+}
+
+#carousel-paginasweb{
+    position: relative;
+    height: 650px;
+}
+
+#carousel-paginasweb .carousel-item{
+    height: 600px;
+}
+
+
+#descripcion-carouselpaginas{
+    padding:4px;
+    margin: 0%; 
+    background: rgba(79, 46, 144, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+
+}
+
+#descripcion-carouselpaginas{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .1); 
+    border-radius: 5px;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.bg-dark{
+ background-color: #3d0a91!important;
+}
+
+.nav-link{
+    color:#290661!important;
+    font-weight: bold;
+}
+
+.btn-secondary{
+   background: rgba(79, 46, 144, 0.25);
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 4px );
+   color: #290661;
+}
+
+
+
+.text-bg-primary{
+    background-color: #6610f2!important;
+}
+
+.text-bg-dark{
+    background-color:  #6610f2!important;
+}
+
+#mail{
+    display: none;
+}
+
+#linkedin{
+    display: none;
+}
+
+#github{
+    display: none;
+}
